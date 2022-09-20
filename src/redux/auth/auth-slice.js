@@ -93,7 +93,7 @@ const authSlice = createSlice({
     },
     [getCurrentUser.rejected]: (store, { payload }) => {
       store.loading = false;
-      store.error = payload.message;
+      store.error = payload?.message;
     },
 
     // -------------------updateBalance----------------------------------
