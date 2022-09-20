@@ -39,6 +39,7 @@ export function Diagram({ dateTransactionFilter, category }) {
     MONTH_CASHFLOW,
     category
   );
+  //push
 
   const diagramForSelectedMonth = chosenCategoryUniqueLabels
     ?.map(item => ({
